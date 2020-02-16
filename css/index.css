@@ -11,19 +11,15 @@
 /* ******************************************************** */
 header {
 	background-color: lightblue;
-	position: relative;
-	height: 500px;
-	padding-top: 10px;
+	text-align: center;
 }
 h1 {
-	text-align: center;
 	margin: 10px;
 	margin-top: 0px;
 	padding: 10px 0px 10px 10px;
 	border: 1px;
 }
 p {
-	text-align: center;
 	margin: 10px 30px;
 	padding: 10px 0px 10px 0px;
 }
@@ -32,35 +28,19 @@ p {
 /*						CLASS SELECTORS						*/
 /* ******************************************************** */
 .cloud1 {
-	position: absolute;
-	top: 285px;
-	/*right: ;*/
-	/*bottom: ;*/
-	left: 25%;
-	z-index: 2;
+	margin-top: 50px;
+	position: relative;
+	top: ;
+	right: ;
+	bottom: ;
+	left: 225px;
 }
 .cloud2 {
 	position: absolute;
-	top: 210px;
-	/*right: ;*/
-	bottom: ;
-	left: 35%;
-}
-.cloud3 {
-	position: absolute;
-	top: 325PX;
-	/*right: ;*/
-	/*bottom: ;*/
-	left: 43%;
-	z-index: 2;
 }
 .mountain {
-	position: absolute;
-	/*top: ;*/
-	/*right: ;*/
-	bottom: 0px;
-	left: 350px;
-	z-index: 1;
+	position: relative;
+	bottom: -4px;
 }
 
 /* ******************************************************** */
