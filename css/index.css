@@ -1,0 +1,144 @@
+/* ******************************************************** */
+/*						RESET VALUES						*/
+/* ******************************************************** */
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lato', cursive;
+	font-size: 1.03rem;
+}
+.clear {
+	clear: both;
+}
+
+
+/* ******************************************************** */
+/*						TAG SELECTORS						*/
+/* ******************************************************** */
+a {
+	text-decoration: none;
+	color: #208a96;
+}
+h1.headerTitle {
+	font-family: 'Sofia', cursive;
+	font-size: 90px;
+	color: #ffffff;
+	margin: 10px;
+	margin-top: 0px;
+	padding: 10px 0px;
+	padding-top: 100px;
+}
+h1.skillHeader {
+	font-family: 'Gruppo', cursive;
+	font-size: 90px;
+	color: #2c2c2c;
+	margin: 10px;
+	margin-top: 0px;
+	padding: 50px 0px;
+	text-align: center;
+}
+h2.skillTitle {
+	margin-top: 15px;
+	font-size: 1.4rem;
+}
+h2, h3, h4, h5, h6 {
+	font-family: 'Gruppo', cursive;
+}
+p.intro {
+	color: #208a96;
+	font-size: 1.25rem;
+	margin: 10px 30px;
+	padding: 10px 0px 10px 0px;
+}
+p.skillText {
+	padding-top: 20px;
+	color: #208a96;
+}
+span.web {
+	font-family: Gruppo, cursive;
+	font-weight: 600;
+	text-decoration: underline;
+	font-size: 1.7rem;
+}
+
+/* ******************************************************** */
+/*						ID SELECTORS	 					*/
+/* ******************************************************** */
+#header {
+	background-color: lightblue;
+	text-align: center;
+	height: 800px;
+	border-bottom: 2px solid #efefef;
+}
+#content {
+
+}
+#contact {
+
+}
+
+/* ******************************************************** */
+/*						CLASS SELECTORS						*/
+/* ******************************************************** */
+.imageHolder {
+	height: 491px;
+	width: 1200px;
+	margin: 0px auto;
+	position: relative;
+	bottom: 0px;
+}
+.cloudLeft {
+	height: 75px;
+	position: absolute;
+	top: 100px;
+	left: 250px;
+	z-index: 0;
+}
+.cloudRight {
+	height: 75px;
+	position: absolute;
+	top: 175px;
+	right: 175px;
+	z-index: 3;
+}
+.mountainLeft {
+	height: 300px;
+	position: absolute;
+	bottom: 1px;
+	left: 2%;
+	z-index: 1;
+}
+.mountainMid {
+	height: 400px;
+	position: absolute;
+	bottom: 0px;
+	left: 15%;
+	z-index: 2;
+}
+.mountainRight {
+	height: 300px;
+	position: absolute;
+	bottom: -1px;
+	right: 2%;
+	z-index: 1;
+}
+.skillRow {
+	margin: 20px auto;
+	padding: 30px;
+	height: 200px;
+	width: 60%;
+	/*border: solid 1px #1c1c1c;*/
+	text-align: left;
+	box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.2);
+}
+.textIcon {
+	height: 200px;
+}
+.iconLeft {
+	float: left;
+	margin-right: 20px;
+}
+.iconRight {
+	float: right;
+	margin-left: 20px;
+}

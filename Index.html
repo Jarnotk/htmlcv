@@ -6,58 +6,95 @@
 		<meta name="description" content="Portfolio Website for Webdevelopment by JTK Media">
 		<meta name="keywords" content="HTML, CSS, PHP, JavaScript">
 		<meta name="author" content="Jarno Korteschiel, JTKMedia">
-		<title>JTK Media</title>
-	</head>
 
+		<title>Jarno Korteschiel - JTK Media</title>
+
+		<link rel="icon" href="img/favicon.ico">
+		<link rel="stylesheet" href="css/index.css">
+		<link href="https://fonts.googleapis.com/css?family=Sofia|Gruppo|Lato:300&display=swap" rel="stylesheet">
+	</head>
+	
 	<body>
-		<table cellspacing="20">
-			<tr>
-				<td><img src="download.jpg" alt="Profile picture Jarno Korteschiel"></td>
-				<td>
-					<h1>Jarno Korteschiel</h1>
-					<p><em>Founder and Head Web Developer of <strong><a href="https://www.jtkmedia.nl">JTK Media</a></strong></em></p>
-					<p>I am a HTML, CSS and JavaScript developer within my own company.</p>
-				</td>
-			</tr>
-		</table>
-		<hr>
-		<h3>Websites</h3>
-		<ul type="square">
-			<li>Tafeltje Dekje Lange Leegte</li>
-			<li>de Jagershof</li>
-			<li>JTK Klus en Onderhoud</li>
-		</ul>
-		<h3>Skills</h3>
-		<table border="1">
-			<tr>
-				<td>
+		<!-- HEADER -->
+		<div id="header">
+			<h1 class="headerTitle">Hi, Ik ben Jarno.</h1>
+			<p class="intro">een <span class="web">web</span> designer / programmer.</p>
+			<div class="imageHolder">
+				<img class="cloudLeft" src="img/cloud.svg">
+				<img class="cloudRight" src="img/cloud.svg">
+				<img class="mountainLeft" src="img/mountain-left.svg">
+				<img class="mountainMid" src="img/mountain-mid.svg">
+				<img class="mountainRight" src="img/mountain-right.svg">
+			</div>
+		</div>
+
+		<!-- CONTENT -->
+		<div id="content">
+			<div class="skills">
+				<h1 class="skillHeader">Mijn skills</h1>
+				<a href="index.html">
+					<div class="skillRow">
+						<img class="textIcon iconLeft" src="img/coding.svg">
+						<h2 class="skillTitle">Coding & Design</h2>
+						<p class="skillText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</a>
+				<div class="clear"></div>
+				<a href="index.html">
+					<div class="skillRow">
+						<img class="textIcon iconRight" src="img/seo.svg">
+						<h2 class="skillTitle">SEO & Review</h2>
+						<p class="skillText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</a>
+				<div class="clear"></div>
+					<a href="index.html">
+						<div class="skillRow">
+							<img class="textIcon iconLeft" src="img/rocket.svg">
+							<h2 class="skillTitle">Domein & Hosting</h2>
+							<p class="skillText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</a>
+				<div class="clear"></div>
+			</div>
+			<div id="contact">
+				<form class="contactForm" action="index.html" method="post">
 					<table>
 						<tr>
-							<td>HTML 5</td>
-							<td>👍👍👍👍</td>
+							<td></td>
+							<td></td>
 						</tr>
 						<tr>
-							<td>JavaScript</td>
-							<td>👍👍</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
 						</tr>
 					</table>
-				</td>
-				<td>
-					<table>
-						<tr>
-							<td>CSS 3</td>
-							<td>👍👍👍</td>
-						</tr>
-						<tr>
-							<td>PHP</td>
-							<td>👍👍</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-		</table>
-		<hr>
-		<h3><a href="courses.html">Courses</a></h3>
-		<h3><a href="contact.html">Contact</a></h3>
+				</form>
+			</div>
+		</div>
+
+		<!-- FOOTER -->
+		<div class="footer">
+			
+		</div>
 	</body>
-</html>
+<html>
